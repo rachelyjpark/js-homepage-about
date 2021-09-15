@@ -142,7 +142,10 @@ border-radius: 15px;
 	font-family: helvetica;
 	font-size: 11px;
 }
-
+.header-underline {
+	color: white;
+	text-decoration: none;
+}
 
 @media only screen and (min-width: 800px) {
 
