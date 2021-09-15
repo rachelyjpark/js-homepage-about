@@ -1,0 +1,288 @@
+body {
+		background-color: rgba(33, 31, 32, 1);	
+}
+
+.profile-circle {
+	position: absolute;
+	width: 116px;
+	height: 116px;
+	left: 50%;
+	top: 200px;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+	background: #F1D3AD;
+}
+.profile-message {
+	width: 90px;
+	position: absolute;
+	left: 50%;
+	top: 200px;
+  	transform: translate(-50%, -50%);
+}
+
+.navigation-name {
+	display: none;
+}
+.navigation-about {
+position: absolute;
+width: 53px;
+height: 17px;
+left: 60px;
+top: 50px;
+	color: rgba(243, 174, 158, 1);
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+}
+
+.navigation-projects {
+	position: absolute;
+width: 73px;
+height: 17px;
+left: 170px;
+top: 50px;
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+color: #FFFFFF;
+}
+
+.navigation-contact {
+	position: absolute;
+width: 70px;
+height: 17px;
+left: 290px;
+top: 50px;
+
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+color: #FFFFFF;
+}
+.header-underline {
+	text-decoration: none;
+	color: white;
+}
+
+.text-bubble {
+position: absolute;
+width: 291px;
+height: 45px;
+left: 65px;
+top: 296px;
+background: #E5E5E5;
+border-radius: 15px;
+}
+.text-1 {
+	position: absolute;
+	left: 80px;
+	top: 306px;
+	color: black;
+	font-family: helvetica;
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 11px;
+letter-spacing: 0.01em;
+}
+
+.text-bubble-2 {
+position: absolute;
+width: 291px;
+height: 60px;
+left: 65px;
+top: 350px;
+background: #E5E5E5;
+border-radius: 20px;
+}
+
+.text-2 {
+	position: absolute;
+	top: 363px;
+	left: 79px;
+	color: black;
+	font-family: helvetica;
+	font-size: 11px;
+	line-height: 11px;
+	letter-spacing: 0.01em;
+}
+.bead {
+	position: absolute;
+	width: 220px;
+left: 65px;
+top: 420px;
+	border-radius: 15px;
+
+}
+.sunset {
+	position: absolute;
+	width: 220px;
+	left: 65px;
+	top: 750px;
+	border-radius: 15px;
+}
+.text-bubble-3 {
+position: absolute;
+width: 255px;
+height: 40px;
+left: 65px;
+top: 1050px;
+background: #E5E5E5;
+border-radius: 15px;
+}
+
+.text-3 {
+	position: absolute;
+	top: 1057px;
+	left: 79px;
+	color: black;
+	font-family: helvetica;
+	font-size: 11px;
+}
+
+
+@media only screen and (min-width: 800px) {
+
+body {
+	background-color: rgba(33, 31, 32, 1);	
+}
+
+.profile-circle {
+position: absolute;
+width: 190px;
+height: 190px;
+top: 35%;
+left: 50%;
+  transform: translate(-50%, -50%);
+border-radius: 50%;
+background: #F1D3AD;
+}
+
+.profile-message {
+	width: 150px;
+	position: absolute;
+top: 33.5%;
+left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navigation-name {
+	display: block;
+	color: white;
+	font-family: helvetica;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	position: absolute;
+	top: 5%;
+	left: 10%;
+}
+
+.navigation-about {
+	color: rgba(243, 174, 158, 1);
+	font-family: helvetica;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	position: absolute;
+	top: 5%;
+	left: 65%;
+}
+.navigation-projects {
+	color: white;
+	font-family: helvetica;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	position: absolute;
+	top: 5%;
+	left: 75%;
+}
+
+.navigation-contact {
+	color: white;
+	font-family: helvetica;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	position: absolute;
+	top: 5%;
+	left: 85%;
+}
+.header-underline {
+	color: white;
+	text-decoration: none;
+}
+.text-bubble {
+position: absolute;
+width: 575px;
+height: 75px;
+left: 10%;
+top: 450px;
+background: #E5E5E5;
+border-radius: 25px;
+}
+
+.text-1 {
+	position: absolute;
+	top: 462px;
+	left: 11.5%;
+	color: black;
+	font-family: helvetica;
+	font-size: 22px;
+		line-height: normal;
+}
+.text-bubble-2 {
+position: absolute;
+width: 575px;
+height: 105px;
+left: 10%;
+top: 550px;
+background: #E5E5E5;
+border-radius: 25px;
+}
+
+.text-2 {
+	position: absolute;
+	top: 565px;
+	left: 11.5%;
+	color: black;
+	font-family: helvetica;
+	font-size: 22px;
+		line-height: normal;
+}
+.bead {
+	position: absolute;
+	top: 680px;
+	left: 10%;
+	width: 350px;
+	border-radius: 5%;
+}
+.sunset {
+	position: absolute;
+	top: 1210px;
+	left: 10%;
+	width: 350px;
+	border-radius: 5%;
+}
+.text-bubble-3 {
+position: absolute;
+width: 500px;
+height: 80px;
+left: 10%;
+top: 1700px;
+background: #E5E5E5;
+border-radius: 25px;
+}
+.text-3 {
+	position: absolute;
+	top: 1715px;
+	left: 11.5%;
+	color: black;
+	font-family: helvetica;
+	font-size: 22px;
+	line-height: normal;
+}
